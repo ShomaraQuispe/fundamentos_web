@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+.banner {
+    background-image: url(/assets/img/fundo.png);
+    background-size: cover;
+    background-position: center;
+    height: 86vh;
+}
+
+.banner div {
+    padding: 100px 40px 20px ;
+    width: 65vw;
+    height: 100%;
+}
+
+.align-bottom{
+    vertical-align: bottom;
+}
+
+.h1-banner {
+    padding-top: 100px;
+    color: aliceblue;
+    text-shadow: #243162 3px 3px 4px;
+    font-size: 35px;
+}
+
+.banner p {
+    color: white;
+    text-shadow: #243162 3px 3px 4px;
+    font-size: 20px;
+}
+
+.banner button {
+    background: rgb(11, 141, 216);
+    border: none;
+    border-radius: 6px;
+    padding: 12px;
+}
+
+.banner a{
+    color:aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 28px;
+}
+
+h3{
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.center {
+    text-align: center;
+}
+
+.mh-center{
+    margin: 0 auto;
+}
+
+.padding-30{
+    padding: 30px;
+}
+
+.padding-top{
+    padding-top: 35px;
+}
+
+.padding-bottom{
+    padding-bottom: 50px;
+}
+
+.tamanho-50{
+    width: 50%;
+}
+
+.voltar{
+    margin: 30px 0 0 60px;;
+}
